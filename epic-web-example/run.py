@@ -24,6 +24,6 @@ def hello(name):
     )
 
 if __name__ == "__main__":
-    print " # view page: http://0.0.0.0:5000/hello/ranwei"
+    print " # view page: http://localhost:5000/hello/ranwei"
     app.run(host='127.0.0.1', port=5000)
     #app.run()
